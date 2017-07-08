@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context=".ActivateWalletActivity" >
+
+    <TableLayout
+        android:id="@+id/tableLayout_toolBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:paddingTop="0dp" >
+
+            <Button
+                android:id="@+id/button_back"
+                style="@style/EditFormToolBarButton"
+                android:layout_weight=".15"
+                android:drawableBottom="@drawable/goback"
+                android:onClick="button_back_onClick" />
+
+            <Button
+                android:id="@+id/button_title"
+                style="@style/EditFormToolBarPad"
+                android:layout_toRightOf="@+id/button_back"
+                android:layout_weight=".85"
+                android:clickable="false"/>
+
+            <Button
+                android:id="@+id/button_help"
+                style="@style/EditFormToolBarButton"
+                android:layout_weight=".15"
+                android:drawableBottom="@drawable/help"
+                android:onClick="button_help_onClick" />
+        </TableRow>
+    </TableLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/tableLayout_toolBar"
+        android:background="#efefef" >
+
+        <TableLayout
+            android:id="@+id/tableLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="105dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textView_instruction"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:text="@string/instruction_activation1"
+                    android:textColor="#000000"
+                    android:textSize="18dip" />
+
+                <TextView
+                    android:id="@+id/textView_1"
+                    style="@style/EditTextLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/textView_instruction"
+                    android:layout_below="@+id/textView_instruction"
+                    android:text="@string/label_email" />
+
+                <com.winrestenterprise.ewallet.EditTextx
+                    android:id="@+id/editText_1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp"
+                    android:layout_alignLeft="@+id/textView_instruction"
+                    android:layout_below="@+id/textView_1"
+                    android:background="@layout/background_edittext"
+                    android:ems="10"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/button_activate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_alignLeft="@+id/textView_instruction"
+                    android:layout_below="@+id/editText_1"
+                    android:layout_marginTop="15dp"
+                    android:background="@layout/background_activation_button"
+                    android:onClick="button_activate_onClick"
+                    android:text="Activate"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+        </TableLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\save.png",
+        "source": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\src\\main\\res\\drawable-mdpi\\save.png"
+    },
+    {
+        "merged": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\close.png",
+        "source": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\src\\main\\res\\drawable-mdpi\\close.png"
+    },
+    {
+        "merged": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\profile.png",
+        "source": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\src\\main\\res\\drawable-mdpi\\profile.png"
+    },
+    {
+        "merged": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\goback.png",
+        "source": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\src\\main\\res\\drawable-mdpi\\goback.png"
+    },
+    {
+        "merged": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\help.png",
+        "source": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\src\\main\\res\\drawable-mdpi\\help.png"
+    },
+    {
+        "merged": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\receipt.png",
+        "source": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\src\\main\\res\\drawable-mdpi\\receipt.png"
+    },
+    {
+        "merged": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\delete.png",
+        "source": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\src\\main\\res\\drawable-mdpi\\delete.png"
+    },
+    {
+        "merged": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\edit.png",
+        "source": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\src\\main\\res\\drawable-mdpi\\edit.png"
+    },
+    {
+        "merged": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\add.png",
+        "source": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\src\\main\\res\\drawable-mdpi\\add.png"
+    },
+    {
+        "merged": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\receipts.png",
+        "source": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\src\\main\\res\\drawable-mdpi\\receipts.png"
+    }
+]

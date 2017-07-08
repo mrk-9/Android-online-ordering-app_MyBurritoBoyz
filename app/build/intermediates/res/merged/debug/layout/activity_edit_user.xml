@@ -1,0 +1,179 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context=".EditUserActivity" >
+
+    <TableLayout
+        android:id="@+id/tableLayout_toolBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:paddingTop="0dp" >
+
+            <Button
+                android:id="@+id/button_back"
+                style="@style/EditFormToolBarButton"
+                android:layout_weight=".15"
+                android:drawableBottom="@drawable/goback"
+                android:onClick="button_back_onClick" />
+
+            <Button
+                android:id="@+id/button_editProfile"
+                style="@style/EditFormToolBarPad"
+                android:layout_toRightOf="@+id/button_back"
+                android:layout_weight=".85"
+                android:clickable="false"
+                android:text="My Profile" />
+
+            <Button
+                android:id="@+id/button_help"
+                style="@style/EditFormToolBarButton"
+                android:layout_weight=".15"
+                android:drawableBottom="@drawable/help"
+                android:onClick="button_help_onClick" />
+        </TableRow>
+    </TableLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/tableLayout_toolBar"
+        android:background="#efefef" >
+
+        <TableLayout
+            android:id="@+id/tableLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="105dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    style="@style/EditTextLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:text="@string/label_name" />
+
+                <EditText
+                    android:id="@+id/editText_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/textView1"
+                    android:layout_below="@+id/textView1"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textColor="#000000"
+                    android:background="@layout/background_edittext"
+                    android:textSize="20sp" >
+
+                    <requestFocus />
+                </EditText>
+
+                <TextView
+                    android:id="@+id/textView2"
+                    style="@style/EditTextLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/textView1"
+                    android:layout_below="@+id/editText_name"
+                    android:text="@string/label_email" />
+
+                <EditText
+                    android:id="@+id/editText_email"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/textView2"
+                    android:layout_below="@+id/textView2"
+                    android:ems="10"
+                    android:inputType="textEmailAddress"
+                    android:textColor="#606060"
+                    android:background="@layout/background_edittext"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    style="@style/EditTextLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/textView2"
+                    android:layout_below="@+id/editText_email"
+                    android:text="@string/label_phone" />
+
+                <EditText
+                    android:id="@+id/editText_phone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/textView3"
+                    android:layout_below="@+id/textView3"
+                    android:ems="10"
+                    android:inputType="phone"
+                    android:textColor="#606060"
+                    android:background="@layout/background_edittext"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    style="@style/EditTextLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/editText_phone"
+                    android:layout_below="@+id/editText_phone"
+                    android:text="@string/label_address" />
+
+                <EditText
+                    android:id="@+id/editText_address"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/textView4"
+                    android:layout_below="@+id/textView4"
+                    android:ems="10"
+                    android:textColor="#000000"
+                    android:background="@layout/background_edittext"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    style="@style/EditTextLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/editText_email"
+                    android:layout_below="@+id/editText_address"
+                    android:text="@string/label_postal_code" />
+
+                <EditText
+                    android:id="@+id/editText_postalCode"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/editText_address"
+                    android:layout_below="@+id/textView5"
+                    android:ems="10"
+                    android:textColor="#000000"
+                    android:background="@layout/background_edittext"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+        </TableLayout>
+    </ScrollView>
+
+</RelativeLayout>

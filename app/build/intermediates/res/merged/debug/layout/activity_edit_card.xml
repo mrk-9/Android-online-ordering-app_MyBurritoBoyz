@@ -1,0 +1,132 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context=".EditCardActivity" >
+
+    <TableLayout
+        android:id="@+id/tableLayout_toolBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:paddingTop="0dp" >
+
+            <Button
+                android:id="@+id/button_back"
+                style="@style/EditFormToolBarButton"
+                android:layout_weight=".15"
+                android:drawableBottom="@drawable/goback"
+                android:onClick="button_back_onClick" />
+
+            <Button
+                android:id="@+id/button_editProfile"
+                style="@style/EditFormToolBarPad"
+                android:layout_toRightOf="@+id/button_back"
+                android:layout_weight=".85"
+                android:clickable="false"
+                android:text="Edit Card" />
+
+            <Button
+                android:id="@+id/button_help"
+                style="@style/EditFormToolBarButton"
+                android:layout_weight=".15"
+                android:drawableBottom="@drawable/help"
+                android:onClick="button_help_onClick" />
+            
+        </TableRow>
+    </TableLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/tableLayout_toolBar"
+        android:background="#efefef" >
+
+        <TableLayout
+            android:id="@+id/tableLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="105dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textView_cardNo"
+                    style="@style/EditTextLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:text="Card Number" />
+
+                <EditText
+                    android:id="@+id/editText_cardNo"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/textView_cardNo"
+                    android:layout_below="@+id/textView_cardNo"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textColor="#606060"
+                    android:background="@layout/background_edittext"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/textView_name"
+                    style="@style/EditTextLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/editText_cardNo"
+                    android:layout_below="@+id/editText_cardNo"
+                    android:text="Display name" />
+
+                <com.winrestenterprise.ewallet.EditTextx
+                    android:id="@+id/editText_name"
+                    app:Name = "activationCode"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/textView_name"
+                    android:layout_below="@+id/textView_name"
+                    android:ems="10"
+                    android:textColor="#000000"
+                    android:background="@layout/background_edittext"
+                    android:textSize="20sp" >
+
+                    <requestFocus />
+                </com.winrestenterprise.ewallet.EditTextx>
+
+                <Button
+                    android:id="@+id/button_skin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/editText_name"
+                    android:layout_below="@+id/editText_name"
+                    android:layout_marginTop="20dp"
+                    android:onClick="button_skin_onClick"
+                    android:text="Appearance"
+                    android:textSize="20sp" />
+                
+            </RelativeLayout>
+        </TableLayout>
+    </ScrollView>
+
+</RelativeLayout>

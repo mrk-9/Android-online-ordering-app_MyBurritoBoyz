@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp" >
+
+    <TableLayout
+        android:id="@+id/tableLayout_toolBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:paddingTop="0dp" >
+
+            <Button
+                android:id="@+id/button_back"
+                style="@style/EditFormToolBarButton"
+                android:layout_weight=".15"
+                android:drawableBottom="@drawable/goback"
+                android:onClick="button_back_onClick" />
+
+            <Button
+                android:id="@+id/button_titleBar"
+                style="@style/EditFormToolBarPad"
+                android:layout_weight=".85"/>
+
+            <Button
+                android:id="@+id/button_help"
+                style="@style/EditFormToolBarButton"
+                android:layout_weight=".15"
+                android:drawableBottom="@drawable/help"
+                android:onClick="button_help_onClick" />
+        </TableRow>
+    </TableLayout>
+
+    <com.winrestenterprise.ewallet.TweakedWebView
+        android:id="@+id/webview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/tableLayout_toolBar" />
+
+</RelativeLayout>

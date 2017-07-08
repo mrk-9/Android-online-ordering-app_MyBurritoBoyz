@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_card_pay.xml",
+        "source": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\src\\main\\res\\layout\\activity_card_pay.xml"
+    },
+    {
+        "merged": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_zbar_scan.xml",
+        "source": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\src\\main\\res\\layout\\activity_zbar_scan.xml"
+    },
+    {
+        "merged": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_edit_user.xml",
+        "source": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\src\\main\\res\\layout\\activity_edit_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\background_editform_titlebar.xml",
+        "source": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\src\\main\\res\\layout\\background_editform_titlebar.xml"
+    },
+    {
+        "merged": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_flash_screen.xml",
+        "source": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\src\\main\\res\\layout\\activity_flash_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\background_activation_button_small.xml",
+        "source": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\src\\main\\res\\layout\\background_activation_button_small.xml"
+    },
+    {
+        "merged": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\background_edittext.xml",
+        "source": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\src\\main\\res\\layout\\background_edittext.xml"
+    },
+    {
+        "merged": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_edit_card.xml",
+        "source": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\src\\main\\res\\layout\\activity_edit_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\background_toolbarbutton.xml",
+        "source": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\src\\main\\res\\layout\\background_toolbarbutton.xml"
+    },
+    {
+        "merged": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_receipt_list.xml",
+        "source": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\src\\main\\res\\layout\\activity_receipt_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\background_splash_ok_button.xml",
+        "source": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\src\\main\\res\\layout\\background_splash_ok_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\background_flash_body.xml",
+        "source": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\src\\main\\res\\layout\\background_flash_body.xml"
+    },
+    {
+        "merged": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\background_receipt_list_item_row.xml",
+        "source": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\src\\main\\res\\layout\\background_receipt_list_item_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\background_editform_toolbarbutton.xml",
+        "source": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\src\\main\\res\\layout\\background_editform_toolbarbutton.xml"
+    },
+    {
+        "merged": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\background_flash.xml",
+        "source": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\src\\main\\res\\layout\\background_flash.xml"
+    },
+    {
+        "merged": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_activate_wallet.xml",
+        "source": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\src\\main\\res\\layout\\activity_activate_wallet.xml"
+    },
+    {
+        "merged": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_card.xml",
+        "source": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\src\\main\\res\\layout\\activity_add_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_web_order.xml",
+        "source": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\src\\main\\res\\layout\\activity_web_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\background_activation_button.xml",
+        "source": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\src\\main\\res\\layout\\background_activation_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\background_flash_footer.xml",
+        "source": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\src\\main\\res\\layout\\background_flash_footer.xml"
+    },
+    {
+        "merged": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_receipt.xml",
+        "source": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\src\\main\\res\\layout\\activity_receipt.xml"
+    },
+    {
+        "merged": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\background_flash_header.xml",
+        "source": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\src\\main\\res\\layout\\background_flash_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_card_list.xml",
+        "source": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\src\\main\\res\\layout\\activity_card_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\michael\\StudioProjects\\My Burrito Boyz1\\app\\src\\main\\res\\layout\\activity_main.xml"
+    }
+]

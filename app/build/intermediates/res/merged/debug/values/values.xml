@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="EditTextx"><attr format="string" name="Name"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">5dp</dimen>
+    <string name="action_add_card">Add Card</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_forget_password">Forget Password</string>
+    <string name="action_get_receipt_list">Receipts</string>
+    <string name="action_my_profile">My Profile</string>
+    <string name="action_register">Register</string>
+    <string name="action_save">Save</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">My Burrito Boyz</string>
+    <string name="app_shortname">mbbz</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="instruction_activation1">instru</string>
+    <string name="label_address">Address</string>
+    <string name="label_email">Email</string>
+    <string name="label_name">Name</string>
+    <string name="label_phone">Phone</string>
+    <string name="label_postal_code">Postal Code</string>
+    <string name="receipt_font_family">Lucida Console</string>
+    <string name="scan">Scan</string>
+    <string name="scan_resut_lable">Scan Result:</string>
+    <string name="splash_agreed">I have read the privacy policy and agreed the terms of use.</string>
+    <string name="splash_p1">Pay your way!</string>
+    <string name="splash_p2">WinRest eWallet allows you to store all your gift cards electronically in your smart phone and pay for transactions by a simple scan of a QR code using your smart phones camera.</string>
+    <string name="splash_p3">With WinRest eWallet you can also check your cards\’ remaining balance and review historical receipts at anytime.</string>
+    <string name="splash_p4">Load your existing plastic cards into your eWallet or purchase a new electronic card at a store and then activate it into your eWallet.</string>
+    <string name="splash_title">My Burrito Boyz</string>
+    <string name="title_activity_add_win_auth_gift_card">AddWinAuthGiftCardActivity</string>
+    <string name="title_activity_card_list">My Cards</string>
+    <string name="title_activity_card_pay">Card</string>
+    <string name="title_activity_edit_user">EditUserActivity</string>
+    <string name="title_activity_edit_win_auth_gift_card">EditWinAuthGiftCardActivity</string>
+    <string name="title_activity_flash_screen">FlashScreenActivity</string>
+    <string name="title_activity_receipt">Receipt</string>
+    <string name="title_activity_receipt_list">ReceiptListActivity</string>
+    <string name="web_service_url">https://onlineorder.burritoboyz.ca/onlinestore3/webservice.asmx</string>
+    <style name="EditFormToolBarButton">
+    <item name="android:layout_width">0dp</item>
+    <item name="android:layout_height">46sp</item> 
+    <item name="android:layout_marginLeft">0sp</item>
+    <item name="android:layout_marginRight">0sp</item>
+    <item name="android:paddingLeft">0sp</item>
+    <item name="android:paddingRight">0sp</item>
+    <item name="android:paddingTop">0dip</item>
+    <item name="android:paddingBottom">5dip</item>
+    <item name="android:layout_gravity">bottom</item>
+    <item name="android:drawablePadding">0dip</item>
+    <item name="android:background">@layout/background_editform_toolbarbutton</item>
+</style>
+    <style name="EditFormToolBarPad">
+    <item name="android:layout_width">0dp</item>
+    <item name="android:layout_height">46sp</item> 
+    <item name="android:layout_marginLeft">0sp</item>
+    <item name="android:layout_marginRight">0sp</item>
+    <item name="android:paddingLeft">10sp</item>
+    <item name="android:paddingRight">0sp</item>
+    <item name="android:textSize">18sp</item>
+    <item name="android:gravity">center_vertical</item>
+    <item name="android:background">@layout/background_editform_titlebar</item>
+</style>
+    <style name="EditTextLabel">
+    <item name="android:textColor">#000000</item>
+    <item name="android:textSize">16sp</item>
+    <item name="android:layout_marginTop">5sp</item>
+</style>
+    <style name="FlashText">
+    <item name="android:textColor">#cfcfcf</item>
+    <item name="android:textSize">12sp</item>
+    <item name="android:lineSpacingExtra">5dp</item>
+</style>
+    <style name="NoActionBar">
+    <!--  <item name="android:windowActionBar">false</item>-->
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:configChanges">orientation</item>
+</style>
+    <style name="Theme.Transparent" parent="android:Theme">
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:windowNoTitle">true</item>
+    <!--<item name="android:windowIsFloating">true</item>-->
+    <item name="android:backgroundDimEnabled">false</item>
+    <item name="android:configChanges">orientation</item>
+</style>
+    <style name="ToolBarButton">
+    <item name="android:layout_width">0dp</item>
+    <item name="android:layout_height">70sp</item> 
+    <item name="android:layout_marginLeft">1sp</item>
+    <item name="android:layout_marginRight">0sp</item>
+    <item name="android:paddingLeft">0sp</item>
+    <item name="android:paddingRight">0sp</item>
+    <item name="android:textSize">16sp</item>
+    <item name="android:color">#ffffffff</item>
+    <item name="android:paddingTop">10dip</item>
+    <item name="android:layout_gravity">bottom</item>
+    <item name="android:drawablePadding">2dip</item>
+    <item name="android:background">@layout/background_toolbarbutton</item>
+</style>
+</resources>

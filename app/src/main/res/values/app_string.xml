@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Burrito Boyz</string>
+    <string name="splash_title">My Burrito Boyz</string>
+    <string name="app_shortname">mbbz</string>
+    <string name="web_service_url">https://onlineorder.burritoboyz.ca/onlinestore3/webservice.asmx</string>
+</resources>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.winrestenterprise.ewallet.mbbz"
+    android:versionCode="2"
+    android:versionName="1.0.02" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+    
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+	<!--  <uses-permission android:name="android.permission.READ_PHONE_STATE"/> -->
+	<uses-permission android:name="android.permission.GET_ACCOUNTS" />
+	<uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+	
+	<permission android:protectionLevel="signature"
+    android:name="com.winrestenterprise.ewallet.mbbz.permission.C2D_MESSAGE" />
+	<uses-permission android:name="com.winrestenterprise.ewallet.mbbz.permission.C2D_MESSAGE" />
+	
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:name="MyApplication">
+        <activity
+            android:name="com.winrestenterprise.ewallet.mbbz.FlashScreenActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.winrestenterprise.ewallet.mbbz.ActivateWalletActivity"
+            android:theme="@style/NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.winrestenterprise.ewallet.mbbz.CardListActivity"
+            android:theme="@style/NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="android.accounts.AccountAuthenticatorActivity" />
+        </activity>
+        <activity
+            android:name="com.winrestenterprise.ewallet.mbbz.CardPayActivity"
+            android:theme="@style/NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="android.accounts.AccountAuthenticatorActivity" />
+        </activity>
+        <activity
+            android:name="com.winrestenterprise.ewallet.mbbz.ReceiptActivity"
+            android:theme="@style/NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="android.accounts.AccountAuthenticatorActivity" />
+        </activity>
+        <activity
+            android:name="com.winrestenterprise.ewallet.mbbz.ReceiptListActivity"
+            android:theme="@style/NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.winrestenterprise.ewallet.mbbz.EditCardActivity"
+            android:theme="@style/NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.android.swallet.CardListActivity" />
+        </activity>
+        <activity
+            android:name="com.winrestenterprise.ewallet.mbbz.ZBarScanActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="CameraTestActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.android.swallet.CardPayActivity" />
+        </activity>
+        <activity
+            android:name="com.winrestenterprise.ewallet.mbbz.EditUserActivity"
+            android:theme="@style/NoActionBar" >
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.android.swallet.CardListActivity" />
+        </activity>
+        <activity
+            android:name="com.winrestenterprise.ewallet.mbbz.AddCardActivity"
+            android:theme="@style/NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.winrestenterprise.ewallet.mbbz.WebOrder"
+            android:theme="@style/Theme.Transparent"
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <service android:name="com.parse.PushService" />
+<receiver android:name="com.parse.ParsePushBroadcastReceiver"
+    android:exported="false">
+  <intent-filter>
+    <action android:name="com.parse.push.intent.RECEIVE" />
+    <action android:name="com.parse.push.intent.DELETE" />
+    <action android:name="com.parse.push.intent.OPEN" />
+    </intent-filter>
+</receiver>
+<receiver android:name="com.parse.GcmBroadcastReceiver"
+    android:permission="com.google.android.c2dm.permission.SEND">
+  <intent-filter>
+    <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+    <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+ 
+    <!--
+      IMPORTANT: Change "com.parse.starter" to match your app's package name.
+    -->
+    <category android:name="com.winrestenterprise.ewallet.mbbz" />
+  </intent-filter>
+</receiver>
+        
+    </application>
+
+</manifest>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="scan">Scan</string>
+    <string name="scan_resut_lable">Scan Result:</string>
+    <string name="label_email">Email</string>
+    <string name="label_name">Name</string>
+    <string name="label_phone">Phone</string>
+    <string name="label_address">Address</string>
+    <string name="label_postal_code">Postal Code</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_card_list">My Cards</string>
+    <string name="title_activity_card_pay">Card</string>
+    <string name="action_register">Register</string>
+    <string name="action_forget_password">Forget Password</string>
+    <string name="action_add_card">Add Card</string>
+    <string name="action_my_profile">My Profile</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_get_receipt_list">Receipts</string>
+    <string name="title_activity_receipt">Receipt</string>
+    <string name="receipt_font_family">Lucida Console</string>
+    <string name="title_activity_receipt_list">ReceiptListActivity</string>
+    <string name="title_activity_edit_win_auth_gift_card">EditWinAuthGiftCardActivity</string>
+    <string name="title_activity_edit_user">EditUserActivity</string>
+    <string name="action_save">Save</string>
+    <string name="instruction_activation1">instru</string>
+    <string name="title_activity_add_win_auth_gift_card">AddWinAuthGiftCardActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_flash_screen">FlashScreenActivity</string>
+    <string name="splash_p1">Pay your way!</string>
+    <string name="splash_p2">WinRest eWallet allows you to store all your gift cards electronically in your smart phone and pay for transactions by a simple scan of a QR code using your smart phones camera.</string>
+    <string name="splash_p3">With WinRest eWallet you can also check your cards\’ remaining balance and review historical receipts at anytime.</string>
+    <string name="splash_p4">Load your existing plastic cards into your eWallet or purchase a new electronic card at a store and then activate it into your eWallet.</string>
+    <string name="splash_agreed">I have read the privacy policy and agreed the terms of use.</string>
+</resources>
